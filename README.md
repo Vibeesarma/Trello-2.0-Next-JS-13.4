@@ -7,21 +7,27 @@
 
 - Next.js 13 has so many new features one of the new ones useRouter in come from `"next/navigation" ` do not use next.js 12 router here it will affect the code.
 
-- also,use default ```loading.tsx``` file for loading.
+- also, use default ```loading.tsx``` file for loading.
 
 
-## DnD
+## React Beautiful dnd
+
+- [react-beautiful-dnd](https://github.com/atlassian/react-beautiful-dnd) is the package used for drag and drop functionality.
+
+- you install using this command ```npm install react-beautiful-dnd --save```
 
 ## Zustand (use for global store)
 
 
 ## Appwrite Cloud
 
+- [Appwrite](https://appwrite.io/) is a backend platform for developing Web, Mobile, and Flutter applications
 
+- you can install using this  ```npm install appwrite```
 
 ## Chat GPT
 
-- [chat GPT](https://platform.openai.com/docs/api-reference) use for get the summary of weather data.
+- [chat [GPT](https://platform.openai.com/docs/api-reference) use to get the summary of weather data.
 
 - you can use chat GPT 3.5 here.
 
@@ -40,9 +46,9 @@ export default openai;
 
 ## React Avatar
 
-- [react-avator](https://www.npmjs.com/package/react-avatar) use for avator image.
+- [react-avatar](https://www.npmjs.com/package/react-avatar) use for avatar image.
 
-- this is very much help full when you use avatar from Facebook id and google id like scenario.
+- this is very much help full when you use an avatar from a Facebook id and Google id like scenario.
 
 - examples 
 
