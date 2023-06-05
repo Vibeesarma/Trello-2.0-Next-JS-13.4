@@ -1,3 +1,4 @@
+import Board from "@/components/Board";
 import Header from "@/components/Header";
 import Image from "next/image";
 
@@ -7,8 +8,8 @@ export default function Home() {
       {/* Header */}
       <Header />
 
-      {/* Body */}
-      <h1>Trello</h1>
+      {/* Board */}
+      <Board />
     </main>
   );
 }

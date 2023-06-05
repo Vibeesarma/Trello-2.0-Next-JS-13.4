@@ -18,6 +18,8 @@
 
 ## Zustand (use for global store)
 
+- [Zustand](https://www.npmjs.com/package/zustand) this is use mange globals store like redux and context in react
+
 
 ## Appwrite Cloud
 
