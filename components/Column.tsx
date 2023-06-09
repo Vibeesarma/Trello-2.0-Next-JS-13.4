@@ -3,6 +3,7 @@ import React from "react";
 import { Draggable, Droppable } from "react-beautiful-dnd";
 import TodoCard from "./TodoCard";
 import { useBoardStore } from "@/store/BoardStore";
+import { useModelStore } from "@/store/ModelStore";
 
 type Props = {
   id: TypedColumn;
@@ -20,6 +21,7 @@ const idToColumnsText: {
 
 const Column = ({ id, todos, index }: Props) => {
   const [searchString] = useBoardStore((state) => [state.searchString]);
+  const openModel = useModelStore((state) => state.openModel);
 
   return (
     <Draggable draggableId={id} index={index}>
@@ -83,7 +85,10 @@ const Column = ({ id, todos, index }: Props) => {
 
                   {provided.placeholder}
                   <div className="flex items-end justify-end p-2">
-                    <button className="text-green-500 hover:text-green-600">
+                    <button
+                      onClick={openModel}
+                      className="text-green-500 hover:text-green-600"
+                    >
                       <PlusCircleIcon className="h-10 w-10" />
                     </button>
                   </div>
