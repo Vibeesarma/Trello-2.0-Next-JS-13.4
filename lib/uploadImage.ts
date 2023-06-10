@@ -8,6 +8,7 @@ const uploadImage = async (file: File) => {
     ID.unique(),
     file
   );
+  console.log("🚀 ~ file: uploadImage.ts:11 ~ uploadImage ~ fileUploaded:", fileUploaded)
 
   return fileUploaded;
 };
