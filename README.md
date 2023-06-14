@@ -1,5 +1,7 @@
 # TRELLO 2.0 Clone in Next.js 13.4.4
 
+![image](https://github.com/Vibeesarma/Trello-2.0-Next-JS-13.4/assets/77588716/5faf5592-348d-4e5e-a8bf-bd2baa0f73b4)
+
 >This project get from [Sonny Sangha](https://www.youtube.com/@SonnySangha) YouTube channel
 
 >Project Link [Let’s build TRELLO 2.0 with REACT! (Next.js 13.4, GPT-4, Drag & Drop, Zustand, Appwrite Cloud, TS)](https://youtu.be/TI2AvfCj5oM)
